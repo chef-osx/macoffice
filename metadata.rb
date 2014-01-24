@@ -1,5 +1,5 @@
-name             'ud-macoffice'
-maintainer       'Urbandecoder Labs LLC'
+name             'macoffice'
+maintainer       'Urbandecoder Labs'
 maintainer_email 'jdunn@aquezada.com'
 license          'Apache 2.0'
 description      'Installs and configures Microsoft Office 2011 for Mac'
