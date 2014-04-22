@@ -81,3 +81,11 @@ dmg_package 'Office 2011 14.3.9 Update' do
   type 'pkg'
   package_id 'com.microsoft.office.all.core.pkg.14.3.9.update'
 end
+
+dmg_package 'Office 2011 14.4.1 Update' do
+  source 'http://download.microsoft.com/download/A/6/9/A69FE062-D726-456E-A8AA-B1D2A292300E/Office2011-1441Update_EN-US.dmg'
+  checksum '340ff8b731c89f103927db4a2571fa81c9fcb0dc683f394919fda12bfc793af7'
+  volumes_dir 'Microsoft Office 2011 14.4.1 Update'
+  type 'pkg'
+  package_id 'com.microsoft.office.all.core.pkg.14.4.1.update'
+end
