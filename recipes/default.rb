@@ -90,6 +90,14 @@ dmg_package 'Office 2011 14.4.1 Update' do
   package_id 'com.microsoft.office.all.core.pkg.14.4.1.update'
 end
 
+dmg_package 'Office 2011 14.4.2 Update' do
+  source 'http://download.microsoft.com/download/4/B/0/4B01A8A2-795C-4F3E-90E6-2E5FCE6A72A6/Office2011-1442Update_EN-US.dmg'
+  checksum 'e0123bcef3cf1b939cbfce39fe3517b5c7874eb8d77cbf2d8bbb62145337b407'
+  volumes_dir 'Microsoft Office 2011 14.4.2 Update'
+  type 'pkg'
+  package_id 'com.microsoft.office.all.core.pkg.14.4.2.update'
+end
+
 # Lync April 2014 update
 dmg_package 'Lync Installer' do
   source 'http://download.microsoft.com/download/5/0/0/500C7E1F-3235-47D4-BC11-95A71A1BA3ED/lync_14.0.8_140321.dmg'
