@@ -48,7 +48,7 @@ dmg_package 'Error Reporting Installer' do
   package_id "com.microsoft.merp.all.errorreporting.pkg.2.2.9"
 end
 
-# Service Pack 1
+# Service Pack 1 - not necessary since 14.2.0 already includes it
 #dmg_package 'Service Pack 1' do
 #  source 'http://download.microsoft.com/download/5/E/E/5EE76E3B-8D17-4BB1-AF4A-A33D38C8810F/Office2011-1410UpdateEN.dmg'
 #  checksum '875d6f4e3c406fffa3d479ee567a86ef02827ba7a64aaa4299ad9d3961868b64'
@@ -58,52 +58,12 @@ end
 #  package_id ".."
 #end
 
-dmg_package 'Office 2011 14.3.7 Update' do
-  source 'http://download.microsoft.com/download/C/6/3/C634FC8C-A1E0-40B9-9B56-87EA64EFCC5F/Office2011-1437Update_EN-US.dmg'
-  checksum '211025c03c43fa02884519b7245d1ea52bc783f16233bf11510baa8faaf4edeb'
-  volumes_dir 'Microsoft Office 2011 14.3.7 Update'
+dmg_package 'Office 2011 14.4.4 Update' do
+  source 'http://download.microsoft.com/download/E/E/8/EE8A5C59-3F2E-4FA9-A154-469D670FC6C0/Office2011-1444Update_EN-US.dmg'
+  checksum 'ee39aa0d770d26391c125944c7d92363af0a0d337b190a54db68d5274d3a5379'
+  volumes_dir 'Microsoft Office 2011 14.4.4 Update'
   type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.3.7.update'
-end
-
-dmg_package 'Office 2011 14.3.8 Update' do
-  source 'http://download.microsoft.com/download/D/1/E/D1E7CB92-7D4C-4028-BCAD-82E3E547797D/Office2011-1438Update_EN-US.dmg'
-  checksum '16491be5922a23f3588c567e3a8cceaf13b279358defae8b22923e5edd6f9077'
-  volumes_dir 'Microsoft Office 2011 14.3.8 Update'
-  type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.3.8.update'
-end
-
-dmg_package 'Office 2011 14.3.9 Update' do
-  source 'http://download.microsoft.com/download/E/C/6/EC6221F3-463C-46FF-8365-8784A67D7872/Office2011-1439Update_EN-US.dmg'
-  checksum '9e10855139ae39de7118485e2bf45b93ad0a82e67d351040bd972ce603040129'
-  volumes_dir 'Microsoft Office 2011 14.3.9 Update'
-  type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.3.9.update'
-end
-
-dmg_package 'Office 2011 14.4.1 Update' do
-  source 'http://download.microsoft.com/download/A/6/9/A69FE062-D726-456E-A8AA-B1D2A292300E/Office2011-1441Update_EN-US.dmg'
-  checksum '340ff8b731c89f103927db4a2571fa81c9fcb0dc683f394919fda12bfc793af7'
-  volumes_dir 'Microsoft Office 2011 14.4.1 Update'
-  type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.4.1.update'
-end
-
-dmg_package 'Office 2011 14.4.2 Update' do
-  source 'http://download.microsoft.com/download/4/B/0/4B01A8A2-795C-4F3E-90E6-2E5FCE6A72A6/Office2011-1442Update_EN-US.dmg'
-  checksum 'e0123bcef3cf1b939cbfce39fe3517b5c7874eb8d77cbf2d8bbb62145337b407'
-  volumes_dir 'Microsoft Office 2011 14.4.2 Update'
-  type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.4.2.update'
-end
-
-dmg_package 'Office 2011 14.4.3 Update' do
-  source 'http://download.microsoft.com/download/D/A/D/DAD7491B-5FA0-49BB-9BC5-84F43F46152E/Office2011-1443Update_EN-US.dmg'
-  checksum 'ab12fa14f09004509113eb112418726b6bac21e6a045229c8a174c2b766301c7'
-  volumes_dir 'Microsoft Office 2011 14.4.3 Update'
-  type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.4.3.update'
+  package_id 'com.microsoft.office.all.core.pkg.14.4.4.update'
 end
 
 # Lync April 2014 update
