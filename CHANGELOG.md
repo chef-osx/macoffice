@@ -3,6 +3,10 @@ Mac Office Cookbook CHANGELOG
 
 This file is used to list changes made in each version of the macoffice cookbook.
 
+1.0.5
+-----
+- Update to Office 14.4.8.
+
 1.0.4
 -----
 - Update to Office 14.4.7.
