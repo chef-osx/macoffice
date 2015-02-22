@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-dmg_package 'Microsoft Outlook'
+dmg_package 'Microsoft Outlook' do
   source 'http://download.microsoft.com/download/3/E/7/3E75A704-BD77-451D-9F79-86D9868E27FC/MicrosoftOutlook15.6.dmg'
   checksum '41cc3b582c5a1a5e040c17559a3268f8e2a26943cb505e1319e245885349da52'
   volumes_dir 'Microsoft Outlook'
