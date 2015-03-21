@@ -66,12 +66,12 @@ dmg_package 'Office 2011 14.4.8 Update' do
   package_id 'com.microsoft.office.all.core.pkg.14.4.8.update'
 end
 
-# Lync October 2014 update
-dmg_package 'Lync Installer 14.0.10' do
+# Lync March 2015 update
+dmg_package 'Lync Installer 14.0.11' do
   app 'Lync Installer'
-  source 'http://download.microsoft.com/download/5/0/0/500C7E1F-3235-47D4-BC11-95A71A1BA3ED/lync_14.0.10_141024.dmg'
-  checksum 'da14ab83303717fdd01d5262be8cf4c83481b3188314d6527540ea3596bc38fe'
+  source 'http://download.microsoft.com/download/5/0/0/500C7E1F-3235-47D4-BC11-95A71A1BA3ED/lync_14.0.11_150304.1.dmg'
+  checksum '814bea4c7ec2990e4dcd3d59728cc8bb528870e1360917a3607cc9f5a6069298'
   volumes_dir 'Microsoft Lync'
   type 'pkg'
-  package_id 'com.microsoft.lync.all.lync.pkg.14.0.10'
+  package_id 'com.microsoft.lync.all.lync.pkg.14.0.11'
 end
