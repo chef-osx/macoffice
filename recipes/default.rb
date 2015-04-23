@@ -58,12 +58,12 @@ end
 #  package_id ".."
 #end
 
-dmg_package 'Office 2011 14.4.8 Update' do
-  source 'http://download.microsoft.com/download/7/8/E/78E0938D-FDC7-4975-99E7-54256FECDE07/Office2011-1448Update_EN-US.dmg'
-  checksum 'f295c8c646a5dfe1f6b5d620411b7cba3d80ebcde26a2c53215d76524c54fe54'
-  volumes_dir 'Microsoft Office 2011 14.4.8 Update'
+dmg_package 'Office 2011 14.4.9 Update' do
+  source 'http://download.microsoft.com/download/7/0/C/70C26EA7-EF6D-4521-9805-BE8403739785/Office2011-1449Update_EN-US.dmg'
+  checksum 'b8bed3494894be8d690317c9a4bce875eee40bd8ab2a33a330d6e597b74c4a04'
+  volumes_dir 'Microsoft Office 2011 14.4.9 Update'
   type 'pkg'
-  package_id 'com.microsoft.office.all.core.pkg.14.4.8.update'
+  package_id 'com.microsoft.office.all.core.pkg.14.4.9.update'
 end
 
 # Lync March 2015 update
