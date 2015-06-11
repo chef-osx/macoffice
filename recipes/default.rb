@@ -30,12 +30,11 @@ end
 
 # Autoupdate
 dmg_package 'AutoUpdate Installer' do
-  source 'http://download.microsoft.com/download/B/0/D/B0DB40D2-FF90-4633-925A-B8A7D4183279/AutoUpdate_236.dmg'
-  checksum '80d9b48fa89847797e166811b9deb7a0cfaff48a989ac8aa2aaf56bca55c1855'
-  volumes_dir 'MAU'
+  source 'http://download.microsoft.com/download/6/B/0/6B0E1062-C4D6-48F9-94A2-FCA76F19219C/Microsoft_AutoUpdate_3.1.1_Updater.pkg'
+  checksum '63e79169b042aa457321be785c803aabbb1bfc6b83c04e225af6e07b4b809562'
   action :install
-  type "mpkg"
-  package_id "com.microsoft.mau.all.autoupdate.pkg.2.3.6"
+  type "pkg"
+  package_id "com.microsoft.package.Microsoft_AutoUpdate.app"
 end
 
 # Error Reporting
